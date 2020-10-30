@@ -1,0 +1,16 @@
+{
+  "name": "bulkki",
+  "description": "Bulkkii bro",
+  "authors": "author",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "pathToMain",
+  "dependencies": {
+    "csv-parse": "^4.12.0",
+    "dotenv": "8.2.0",
+    "nodemailer": "6.4.11"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

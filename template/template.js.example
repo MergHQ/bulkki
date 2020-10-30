@@ -1,0 +1,6 @@
+export default params => ({
+  from: 'my.email@here.com',
+  to: '${params.receiver}',
+  subject: `Greetings, ${params.name}`,
+  text: `Hello world, this is a param ${params.name}`,
+})
